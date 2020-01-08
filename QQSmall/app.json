@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/base-contain/base-contain",
     "pages/cover-view/cover-view",
     "pages/movable/movable",
     "pages/swiper/swiper",
@@ -21,8 +22,8 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath":  "pages/cover-view/cover-view",
-        "text": "cover-view"
+        "pagePath":  "pages/base-contain/base-contain",
+        "text": "base"
       },
       {
         "pagePath": "pages/index/index",
