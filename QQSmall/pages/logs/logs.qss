@@ -1,0 +1,42 @@
+.helloview{
+  display:flex;
+  background-color:#DD0000;
+  height:100%;
+}
+
+.changeName{
+  background-color:#FF00FF;
+  width:60%;
+}
+
+.demo-view{
+  display:flex;
+  flex-direction:column;
+  background-color:#DD00DD;
+  height:1000rpx;
+  align-items:flex-start;
+  justify-content:space-around;
+}
+
+.bc_green{
+  background-color:#00FF00;
+  width: 20%;
+  height:50rpx
+}
+
+.bc_red{
+  background-color:#FF0000;
+  width: 20%;
+  height:50rpx
+}
+.bc_yellow{
+  background-color:#0000FF;
+  width: 20%;
+  height:50rpx
+}
+
+.bc_black{
+  background-color:#000000;
+  width: 20%;
+  height:50rpx
+}

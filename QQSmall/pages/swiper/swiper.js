@@ -1,0 +1,38 @@
+//可以做banner等自动滚动的东西
+Page({
+    data: {
+        imgUrls: [
+            'https://c-ssl.duitang.com/uploads/item/201611/30/20161130003431_NLFhZ.thumb.700_0.jpeg',
+            'https://c-ssl.duitang.com/uploads/item/201611/30/20161130003431_NLFhZ.thumb.700_0.jpeg',
+            'https://c-ssl.duitang.com/uploads/item/201611/30/20161130003431_NLFhZ.thumb.700_0.jpeg'
+        ],
+        indicatorDots:false,
+        autoplay:false,
+        interval:5000,
+        duration:1000
+    },
+    changeIndicatorDots(e){
+        this.setData(
+            {
+                indicatorDots:!this.data.indicatorDots
+            }
+        )
+    },
+    changeAutoplay(e){
+        this.setData({
+            autoplay:!this.data.autoplay
+        })
+    },
+    intervalChange(e){
+        console.log(e)
+        this.setData({
+            interval:e.detail.value
+        })
+    },
+    durationChange(e){
+         console.log(e)
+        this.setData({
+            duration:e.detail.value
+        })
+    }
+})

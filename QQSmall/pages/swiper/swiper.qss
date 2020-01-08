@@ -1,0 +1,17 @@
+.slide-image{
+    height:100rpx
+}
+
+.swiper{
+    height:200rpx
+}
+
+.changeIndicatorDots{
+    background-color:#FF0000;
+    width:70%
+}
+
+.changeAutoplay{
+    background-color:#00FF00;
+    width:70%
+}

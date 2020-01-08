@@ -1,0 +1,19 @@
+//可以拖动，改变大小，位置等
+Page({
+    data:{
+        x:0,
+        y:0
+    },
+    tap(e){
+        this.setData({
+            x:30,
+            y:30
+        })
+    },
+    onChange(e){
+        console.log("onchange",e.detail)
+    },
+    onScale(e){
+        console.log("onscale",e.detail)
+    }
+})

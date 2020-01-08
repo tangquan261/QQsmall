@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/cover-view/cover-view",
+    "pages/movable/movable",
+    "pages/swiper/swiper",
+    "pages/scroll-view/scroll-view",
+    "pages/view/view",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0000FF",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position":"top",
+    "color": "#878b99",
+    "selectedColor": "#ff7693",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath":  "pages/cover-view/cover-view",
+        "text": "cover-view"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  }
+}

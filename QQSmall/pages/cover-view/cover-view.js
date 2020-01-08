@@ -1,0 +1,14 @@
+Page({
+    data:({
+        name:""
+    }),
+    onReady(){
+        this.videoCtx=qq.createVideoContext("myVideo")
+    },
+    play(){
+        this.videoCtx.play();
+    },
+    pause(){
+        this.videoCtx.pause()
+    }
+})

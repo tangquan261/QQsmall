@@ -1,0 +1,33 @@
+.view{
+  display:flex;
+  flex-direction:column;
+}
+
+.flexrow{
+    display:flex;
+    flex-direction:row;
+}
+
+.bc_red{
+  background-color:#FF0000;
+  width:100%;
+  
+}
+.bc_blue{
+background-color:#00FF00;
+width:100%;
+}
+
+.bc_green{
+background-color:#0000FF;
+width:100%;
+}
+
+.demo-view{
+  display:flex;
+  flex-direction:column;
+  background-color:#DD00DD;
+  height:1000rpx;
+  align-items:flex-start;
+  justify-content:space-around;
+}

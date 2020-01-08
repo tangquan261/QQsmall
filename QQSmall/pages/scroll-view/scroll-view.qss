@@ -1,0 +1,54 @@
+.section_gap {
+  display: flex;
+  background-color: #dddddd;
+  flex-direction: column;
+}
+.section_title{
+    background-color: #dddddd;
+}
+.page-section-spacing{
+  background-color: #dddddd;
+}
+
+.scroll-view_h {
+  display: flex;
+  background-color: #0000FF;
+  height: 150rpx;
+  width:70%;
+  white-space: nowrap
+}
+
+.scroll-view_vectical_h{
+  display: flex;
+  background-color: #0000FF;
+  height: 150rpx;
+  width:70%;
+  white-space: nowrap
+}
+
+.bc_red {
+  background-color: #ff0000;
+  width: 200rpx;
+  height: 150rpx;
+  display: inline-block
+}
+.bc_green {
+  background-color: #00ff00;
+  width: 200rpx;
+  height: 150rpx;
+  display: inline-block
+}
+
+
+.bc_redc {
+  background-color: #ff0000;
+  width: 200rpx;
+  height: 150rpx;
+}
+.bc_greenc {
+  background-color: #00ff00;
+  width: 200rpx;
+  height: 150rpx;
+}
+
+
