@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/input/input",
+    "pages/table-commit/table-commit",
     "pages/base-contain/base-contain",
     "pages/cover-view/cover-view",
     "pages/movable/movable",
@@ -22,8 +24,8 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath":  "pages/base-contain/base-contain",
-        "text": "base"
+        "pagePath":  "pages/input/input",
+        "text": "input"
       },
       {
         "pagePath": "pages/index/index",
@@ -34,5 +36,12 @@
         "text": "日志"
       }
     ]
-  }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": ["qqe5f52902cf4de896"],
+  "groupIdList":["123456","34356576","457658769"]
 }
