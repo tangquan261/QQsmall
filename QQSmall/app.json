@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/camera/camera",
+    "pages/video/video",
+    "pages/image/image",
+    "pages/navigation-map-canvas/navigation-map-canvas",
     "pages/table-other/table-other",
     "pages/radio/radio",
     "pages/picker/picker",
@@ -28,8 +32,8 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/table-other/table-other",
-        "text": "table-other"
+        "pagePath": "pages/camera/camera",
+        "text": "camera"
       },
       {
         "pagePath": "pages/index/index",
