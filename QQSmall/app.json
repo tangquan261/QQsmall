@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/table-other/table-other",
+    "pages/radio/radio",
+    "pages/picker/picker",
+    "pages/label/label",
     "pages/input/input",
     "pages/table-commit/table-commit",
     "pages/base-contain/base-contain",
@@ -24,8 +28,8 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath":  "pages/input/input",
-        "text": "input"
+        "pagePath": "pages/table-other/table-other",
+        "text": "table-other"
       },
       {
         "pagePath": "pages/index/index",

@@ -19,11 +19,11 @@ Page({
 
         if (pos != -1){
             const left = e.detail.value.slice(0,pos)
-            pos = left.replace(/11/g,'2').length
+            pos = left.replace('11','2').length
         }
 
         return {
-            value:value.replace(/11/g,'2'),
+            value:value.replace('11','2'),
             curosr:pos
         }
     }
