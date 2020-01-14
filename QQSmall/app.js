@@ -1,6 +1,22 @@
 //app.js
 App({
+
   onLaunch: function () {
+
+    //获取登录用户QQ系统信息
+      const res = qq.getSystemInfoSync()
+      console.log(res)
+
+      qq.getSystemInfo({
+        success(res){
+          console.log(res)
+        }
+      })
+
+    
+
+//获取全局唯一的版本更新管理器，用于管理小程序更新。关于小程序的更新机制，可以查看运行机制文档。
+
     // 展示本地存储能力
     // var logs = qq.getStorageSync('logs') || []
     // logs.unshift(Date.now())
